@@ -6,3 +6,33 @@
 .my-services__title {
   color: var(--color-red);
 }
+
+.my-services__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3.5rem;
+}
+
+.my-services__card {
+  border-radius: 12px;
+  border: 1px solid var(--gray-200);
+  padding: 1.25rem;
+}
+
+.my-services__icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.my-services__card-title {
+  font: var(--font-title-sm);
+  color: var(--gray-600);
+  margin-block: 1.25rem 0.5rem;
+}
+
+.my-services__card-text {
+  font: var(--font-text-sm);
+  color: var(--gray-500);
+}
