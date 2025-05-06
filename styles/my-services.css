@@ -1,0 +1,8 @@
+.my-services {
+  min-height: 30rem;
+  background-color: var(--gray-100);
+}
+
+.my-services__title {
+  color: var(--color-red);
+}

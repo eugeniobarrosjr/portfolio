@@ -35,3 +35,21 @@
 body {
   background-color: var(--gray-200);
 }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.section__title {
+  font: var(--font-subtitle);
+}
+
+.section__subtitle {
+  font: var(--font-title-md);
+  color: var(--gray-500);
+}
