@@ -18,8 +18,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  margin-top: 3rem;
+  gap: var(--space-lg);
+  margin-top: var(--space-xxl);
 }
 
 .social-links__item {
@@ -27,7 +27,7 @@
   align-items: center;
   width: 25rem;
   height: 4.25rem;
-  border-radius: 8px;
+  border-radius: var(--space-sm);
   background-color: var(--gray-300);
   text-decoration: none;
   padding-inline: 1.375rem;
@@ -42,7 +42,7 @@
 .social-links__icon {
   width: 1.75rem;
   height: 1.75rem;
-  margin-right: 0.75rem;
+  margin-right: var(--space-sm);
 }
 
 .social-links__arrow {

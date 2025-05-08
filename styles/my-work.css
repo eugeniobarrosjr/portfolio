@@ -1,0 +1,43 @@
+.my-work {
+  min-height: 57rem;
+  background-color: var(--gray-200);
+}
+
+.my-work__title {
+  color: var(--color-red);
+}
+
+.my-work__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-top: var(--space-xxxl);
+  max-width: 1040px;
+}
+
+.my-work__card {
+  background-color: var(--gray-300);
+  border-radius: var(--space-md);
+  height: 280px;
+  padding: var(--space-md);
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-work__image {
+  border-radius: var(--space-sm);
+  object-fit: contain;
+}
+
+.my-work__card-title {
+  font: var(--font-title-sm);
+  color: var(--gray-600);
+  margin-top: var(--space-xl);
+}
+
+.my-work__card-text {
+  font: var(--font-text-sm);
+  color: var(--gray-500);
+  margin-top: var(--space-sm);
+}
