@@ -2,7 +2,7 @@
 
 This is a professional fullstack developer portfolio, created to showcase my skills, projects, and services. The design focuses on a clear and modern presentation, using **HTML5** and **CSS3** for layout, typography, and responsive design.
 
-🔗 **[Live Preview](LIVE_PREVIEW_URL_HERE)**
+🔗 **[Live Preview](https://eugeniobarrosjr.github.io/portfolio/)**
 
 ## 📸 Preview
 
