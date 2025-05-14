@@ -1,0 +1,76 @@
+.hero {
+  background-image: url("../assets/Background_Intro.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 46rem;
+  text-align: center;
+}
+.hero__header {
+  position: relative;
+  display: inline-block;
+}
+
+.hero__icon {
+  position: absolute;
+  bottom: 30px;
+  right: 5px;
+}
+
+.hero__image {
+  margin-bottom: var(--space-xxl);
+  border: 2px solid var(--color-red);
+  padding: 5px;
+  border-radius: 50%;
+}
+.hero__title {
+  font: var(--font-subtitle);
+  color: var(--gray-500);
+}
+.hero__highlight {
+  color: var(--color-red);
+}
+.hero__subtitle {
+  color: var(--gray-600);
+  font: var(--font-title-lg);
+  margin-top: var(--space-md);
+}
+.hero__text {
+  color: var(--gray-500);
+  font: var(--font-text-md);
+  margin-top: var(--space-lg);
+  max-width: 50rem;
+  text-align: justify;
+}
+
+.hero__techs {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);
+  margin-top: var(--space-xxl);
+}
+
+.hero__tech {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  gap: var(--space-sm);
+  padding: var(--space-sm);
+  background-color: var(--gray-300);
+  border-radius: 9999px;
+  padding: var(--space-lg);
+}
+
+.hero__tech-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.hero__tech-text {
+  color: var(--gray-500);
+  font: var(--font-text-sm);
+}
+
+.hero__indicator {
+  margin-top: 99px;
+}
